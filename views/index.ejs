@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= message %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <a href="/new">New Message</a>
+    <% for (const msg of message) { %>
+    <li>
+      <h2><%=msg.user%>'s message</h2>
+      <h3><%=msg.text %></h3>
+      <sub><%=msg.added%></sub>
+    </li>
+    <br />
+    <%}%>
+  </body>
+</html>

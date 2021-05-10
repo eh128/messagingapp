@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+li {
+  background-color: aqua;
+  list-style-type: none;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3 {
+  color: #009400;
+}
+
+#form {
+  line-height: 2;
+}
